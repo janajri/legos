@@ -1,0 +1,49 @@
+@import './breakpoints.css';
+
+@media (--medium) {
+	.m-weight-1 { font-weight: 100; }
+	.m-weight-2 { font-weight: 200; }
+	.m-weight-3 { font-weight: 300; }
+	.m-weight-4 { font-weight: 400; }
+	.m-weight-5 { font-weight: 500; }
+	.m-weight-6 { font-weight: 600; }
+	.m-weight-7 { font-weight: 700; }
+	.m-weight-8 { font-weight: 800; }
+	.m-weight-9 { font-weight: 900; }
+
+	.m-size-1  { font-size: calc(1 * var(--unit));  }
+	.m-size-2  { font-size: calc(2 * var(--unit));  }
+	.m-size-3  { font-size: calc(3 * var(--unit));  }
+	.m-size-3-5 { font-size: calc(3.5 * var(--unit));  }
+	.m-size-4  { font-size: calc(4 * var(--unit));  }
+	.m-size-5  { font-size: calc(5 * var(--unit));  }
+	.m-size-6  { font-size: calc(6 * var(--unit));  }
+	.m-size-7  { font-size: calc(7 * var(--unit));  }
+	.m-size-8  { font-size: calc(8 * var(--unit));  }
+	.m-size-9  { font-size: calc(9 * var(--unit));  }
+	.m-size-10 { font-size: calc(10 * var(--unit)); }
+	.m-size-11 { font-size: calc(11 * var(--unit)); }
+	.m-size-12 { font-size: calc(12 * var(--unit)); }
+
+	.m-line-1 { line-height: calc(1 * var(--unit));  }
+	.m-line-2 { line-height: calc(2 * var(--unit));  }
+	.m-line-3 { line-height: calc(3 * var(--unit));  }
+	.m-line-4 { line-height: calc(4 * var(--unit));  }
+	.m-line-5 { line-height: calc(5 * var(--unit));  }
+	.m-line-6 { line-height: calc(6 * var(--unit));  }
+	.m-line-7 { line-height: calc(7 * var(--unit));  }
+	.m-line-8 { line-height: calc(8 * var(--unit));  }
+
+	.m-uppercase {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+
+	.m-capitalize {
+		text-transform: capitalize;
+	}
+
+	.m-text-center {
+		text-align: center;
+	}
+}

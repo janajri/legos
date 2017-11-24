@@ -1,0 +1,24 @@
+{
+  "name": "legos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tachyons ./src/legos.css > ./dist/legos.css",
+    "watch": "watch \"npm run build\" ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironbay/legos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironbay/legos/issues"
+  },
+  "homepage": "https://github.com/ironbay/legos#readme",
+  "devDependencies": {
+    "tachyons-cli": "^1.2.0",
+    "watch": "^1.0.2"
+  }
+}

@@ -1,0 +1,114 @@
+@import './breakpoints.css';
+
+*{
+	box-sizing: border-box;
+}
+
+.relative {
+	position: relative;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.flex,
+.flex-1,
+.flex-2,
+.flex-3,
+.flex-4,
+.flex-5,
+.flex-6,
+.flex-7,
+.flex-8,
+.flex-9,
+.flex-10 {
+	display: flex;
+	box-sizing: border-box;
+	flex: 0 0 auto;
+}
+
+.flex {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.flex-1 {
+	flex-basis: 10%;
+}
+
+.flex-2 {
+	flex-basis: 20%;
+}
+
+.flex-3 {
+	flex-basis: 30%;
+}
+
+.flex-4 {
+	flex-basis: 40%;
+}
+
+.flex-5 {
+	flex-basis: 50%;
+}
+
+.flex-6 {
+	flex-basis: 60%;
+}
+
+.flex-7 {
+	flex-basis: 70%;
+}
+
+.flex-8 {
+	flex-basis: 80%;
+}
+
+.flex-9 {
+	flex-basis: 90%;
+}
+
+.flex-10 {
+	flex-basis: 100%;
+}
+
+.flex-third {
+	flex-basis: calc(100%/3);
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.fill {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: flex;
+}
+
+.justify-end { justify-content: flex-end; }
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-around { justify-content: space-around; }
+.justify-between { justify-content: space-between; }
+
+.align-end { align-items: flex-end; }
+.align-start { align-items: flex-start; }
+.align-center { align-items: center; }
+.align-around { align-items: baseline; }
+.align-stretch { align-items: stretch; }

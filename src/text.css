@@ -1,0 +1,55 @@
+@import './breakpoints.css';
+
+body {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1rem;
+	letter-spacing: 0.03em;
+	line-height: 1;
+}
+
+.weight-1 { font-weight: 100; }
+.weight-2 { font-weight: 200; }
+.weight-3 { font-weight: 300; }
+.weight-4 { font-weight: 400; }
+.weight-5 { font-weight: 500; }
+.weight-6 { font-weight: 600; }
+.weight-7 { font-weight: 700; }
+.weight-8 { font-weight: 800; }
+.weight-9 { font-weight: 900; }
+
+.size-1  { font-size: calc(1 * var(--unit));  }
+.size-2  { font-size: calc(2 * var(--unit));  }
+.size-3  { font-size: calc(3 * var(--unit));  }
+.size-3-5 { font-size: calc(3.5 * var(--unit));  }
+.size-4  { font-size: calc(4 * var(--unit));  }
+.size-5  { font-size: calc(5 * var(--unit));  }
+.size-6  { font-size: calc(6 * var(--unit));  }
+.size-7  { font-size: calc(7 * var(--unit));  }
+.size-8  { font-size: calc(8 * var(--unit));  }
+.size-9  { font-size: calc(9 * var(--unit));  }
+.size-10 { font-size: calc(10 * var(--unit)); }
+.size-11 { font-size: calc(11 * var(--unit)); }
+.size-12 { font-size: calc(12 * var(--unit)); }
+
+.line-1 { line-height: calc(1 * var(--unit));  }
+.line-2 { line-height: calc(2 * var(--unit));  }
+.line-3 { line-height: calc(3 * var(--unit));  }
+.line-4 { line-height: calc(4 * var(--unit));  }
+.line-5 { line-height: calc(5 * var(--unit));  }
+.line-6 { line-height: calc(6 * var(--unit));  }
+.line-7 { line-height: calc(7 * var(--unit));  }
+.line-8 { line-height: calc(8 * var(--unit));  }
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.text-center {
+	text-align: center;
+}
