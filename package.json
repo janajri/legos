@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tachyons ./src/legos.css > ./dist/legos.css",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons ./src/legos.css > ./dist/legos.css",
+    "build:minify": "tachyons ./src/legos.css -m > ./dist/legos.min.css",
     "watch": "watch \"npm run build\" ./src/"
   },
   "repository": {
