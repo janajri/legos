@@ -1,3 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
+:root {
+	--unit: 0.25rem;
+}

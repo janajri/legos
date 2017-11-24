@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "node ./src/compile.js",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons ./src/legos.css > ./dist/legos.css",
-    "build:minify": "tachyons ./src/legos.css -m > ./dist/legos.min.css",
+    "build:css": "npm run compile | postcss -c postcss.config.json",
+    "build:minify": "npm run compile | postcss -o ./dist/legos.min.css -u cssnano -c postcss.config.json",
     "watch": "watch \"npm run build\" ./src/"
   },
   "repository": {
@@ -20,7 +21,10 @@
   },
   "homepage": "https://github.com/ironbay/legos#readme",
   "devDependencies": {
-    "tachyons-cli": "^1.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss": "^6.0.14",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
   }
 }

@@ -1,6 +1,3 @@
-:root {
-	--unit: 0.25rem;
-}
 
 .mgn-l0, .mgn-0, .mgn-h0 { margin-left:   calc(0 * var(--unit)); }
 .mgn-r0, .mgn-0, .mgn-h0 { margin-right:  calc(0 * var(--unit)); }
@@ -106,7 +103,3 @@
 .border-r1, .border-1, .border-h1 { border-right:  1px solid var(--border); }
 .border-t1, .border-1, .border-v1 { border-top:    1px solid var(--border); }
 .border-b1, .border-1, .border-v1 { border-bottom: 1px solid var(--border); }
-
-.container.border-highlight {
-	border-color: var(--highlight);
-}

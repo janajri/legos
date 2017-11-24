@@ -1,9 +1,3 @@
-@import './breakpoints.css';
-
-*{
-	box-sizing: border-box;
-}
-
 .relative {
 	position: relative;
 }

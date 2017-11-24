@@ -1,8 +1,3 @@
-/* 
- * https://github.com/jtrost/Complete-CSS-Reset
-*/
-
-/* Displays for HTML 5 */
 article, aside, audio, command, datagrid, details, dialog, embed, 
 figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
 video, wbr {
@@ -13,13 +8,11 @@ bdi, figcaption, keygen, mark, meter, progress, rp, rt, ruby, time {
 	display: inline;
 }
 
-/* Deprecated tags */
 acronym, applet, big, center, dir, font, frame, frameset, noframes, s,
 strike, tt, u, xmp {
 	display: none;
 }
 
-/* Reset styles for all structural tags */
 a, abbr, area, article, aside, audio, b, bdo, blockquote, body, button, 
 canvas, caption, cite, code, col, colgroup, command, datalist, dd, del, 
 details, dialog, dfn, div, dl, dt, em, embed, fieldset, figure, form,
@@ -41,7 +34,6 @@ table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
 	z-index: 1;
 }
 
-/* Miscellaneous resets */
 body {
 	line-height: 1;
 }
