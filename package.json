@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "node ./src/compile.js",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "npm run --silent compile | postcss -c postcss.config.json",
-    "build:minify": "npm run --silent compile | postcss -o ./dist/legos.min.css -u cssnano -c postcss.config.json",
-    "watch": "watch \"npm run build:css\""
+    "build": "node ./src/compile.js",
+    "watch": "watch \"npm run build\""
   },
   "repository": {
     "type": "git",
@@ -21,10 +18,10 @@
   },
   "homepage": "https://github.com/ironbay/legos#readme",
   "devDependencies": {
-    "postcss-cssnext": "^3.0.2",
+    "cssnano": "^3.10.0",
     "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
     "watch": "^1.0.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

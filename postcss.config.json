@@ -1,7 +1,0 @@
-{
-    "use": [
-        "postcss-cssnext"
-    ],
-    "output": "./dist/legos.css",
-    "local-plugins": true
-}

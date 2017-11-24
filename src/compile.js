@@ -2,10 +2,16 @@ const fs = require('fs')
 const css = require('css')
 const path = require('path')
 
-const responsve = stream('responsive')
-const global = stream('global')
+const postcss = require('postcss')
+const next = require('postcss-cssnext')
+const nano = require('cssnano')
 
-console.log(css.stringify({
+const responsve = stream_rules('responsive')
+const global = stream_rules('global')
+
+const OUTPUT_DIR = './dist'
+clean()
+write_css(css.stringify({
 	type: 'stylesheet',
 	stylesheet: {
 		rules: [
@@ -30,7 +36,28 @@ console.log(css.stringify({
 	}
 }))
 
-function stream(directory) {
+function write_css(input) {
+	return postcss([next])
+		.process(input)
+		.then(result => {
+			write_file('legos.css', result.css)
+			return postcss([nano]).process(result.css)
+		})
+		.then(result => {
+			write_file('legos.min.css', result.css)
+		})
+}
+
+function write_file(name, data) {
+	fs.writeFileSync(path.join(OUTPUT_DIR, name), data)
+}
+
+function clean() {
+	try { fs.rmdirSync(OUTPUT_DIR) } catch(e) {}
+	try { fs.mkdirSync(OUTPUT_DIR) } catch(e) {}
+}
+
+function stream_rules(directory) {
 	return fs
 	.readdirSync(path.join(__dirname, directory))
 	.map(file => path.join(__dirname, directory, file))
