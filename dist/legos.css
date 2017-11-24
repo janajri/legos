@@ -1,10 +1,15 @@
-
-> @ironbay/legos@1.0.0 compile /home/dax/dev/projects/react/legos
-> node ./src/compile.js
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  line-height: 1;
 }
 
 .input {
@@ -1457,15 +1462,6 @@ table {
   border-bottom: 1px solid #dbdbdb;
 }
 
-body {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  letter-spacing: 0.03em;
-  line-height: 1;
-}
-
 .weight-1 {
   font-weight: 100;
 }
@@ -2796,14 +2792,6 @@ body {
     border-bottom: 1px solid #dbdbdb;
   }
 
-  body {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.03em;
-    line-height: 1;
-  }
-
   .s-weight-1 {
     font-weight: 100;
   }
@@ -4114,14 +4102,6 @@ body {
     border-bottom: 1px solid #dbdbdb;
   }
 
-  body {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.03em;
-    line-height: 1;
-  }
-
   .m-weight-1 {
     font-weight: 100;
   }
@@ -5430,14 +5410,6 @@ body {
   .l-border-1,
   .l-border-v1 {
     border-bottom: 1px solid #dbdbdb;
-  }
-
-  body {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.03em;
-    line-height: 1;
   }
 
   .l-weight-1 {
