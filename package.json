@@ -8,7 +8,7 @@
     "build": "npm run build:css && npm run build:minify",
     "build:css": "npm run compile | postcss -c postcss.config.json",
     "build:minify": "npm run compile | postcss -o ./dist/legos.min.css -u cssnano -c postcss.config.json",
-    "watch": "watch \"npm run build\" ./src/"
+    "watch": "watch \"npm run build:css\""
   },
   "repository": {
     "type": "git",
