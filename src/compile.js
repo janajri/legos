@@ -6,37 +6,66 @@ const postcss = require('postcss')
 const next = require('postcss-cssnext')
 const nano = require('cssnano')
 
-const responsve = stream_rules('responsive')
-const global = stream_rules('global')
-
 const OUTPUT_DIR = './dist'
 clean()
-write_css(css.stringify({
+
+const responsive = stream_rules('responsive')
+const global = stream_rules('global')
+
+const prefixed = {
+	s: prefix('s', responsive),
+	m: prefix('m', responsive),
+	l: prefix('l', responsive),
+}
+
+const ast = {
 	type: 'stylesheet',
 	stylesheet: {
 		rules: [
 			...global,
-			...responsve,
+			...responsive,
 			{
 				type: "media",
 				media: "(min-width: 30rem)",
-				rules: prefix('s', responsve),
+				rules: prefixed.s,
 			},
 			{
 				type: "media",
 				media: "(min-width: 48rem)",
-				rules: prefix('m', responsve),
+				rules: prefixed.m,
 			},
 			{
 				type: "media",
 				media: "(min-width: 75rem)",
-				rules: prefix('l', responsve),
+				rules: prefixed.l,
 			},
 		]
 	}
-}))
+}
+write_css(css.stringify(ast))
+write_list([
+	...global,
+	...responsive,
+	...prefixed.s,
+	...prefixed.m,
+	...prefixed.l,
+])
+
+function write_list(rules) {
+	const result =
+		rules
+		.map(r => r.selectors)
+		.reduce((a, b) => a.concat(b))
+		.filter(item => item[0] === ".") 
+		.reduce((collect, item) => {
+			collect[item] = true
+			return collect
+		}, {})
+	write_file('classes.js', `export default ${JSON.stringify(result, null, 4)}`)
+}
 
 function write_css(input) {
+	write_file('raw.css', input)
 	return postcss([next])
 		.process(input)
 		.then(result => {
