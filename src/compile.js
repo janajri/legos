@@ -57,6 +57,7 @@ function write_list(rules) {
 		.map(r => r.selectors)
 		.reduce((a, b) => a.concat(b))
 		.filter(item => item[0] === ".") 
+		.map(item => item.slice(1))
 		.reduce((collect, item) => {
 			collect[item] = true
 			return collect
