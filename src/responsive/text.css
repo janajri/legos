@@ -23,14 +23,14 @@
 .size-11 { font-size: calc(11 * var(--unit)); }
 .size-12 { font-size: calc(12 * var(--unit)); }
 
-.line-1 { line-height: calc(1 * var(--unit));  }
-.line-2 { line-height: calc(2 * var(--unit));  }
-.line-3 { line-height: calc(3 * var(--unit));  }
-.line-4 { line-height: calc(4 * var(--unit));  }
-.line-5 { line-height: calc(5 * var(--unit));  }
-.line-6 { line-height: calc(6 * var(--unit));  }
-.line-7 { line-height: calc(7 * var(--unit));  }
-.line-8 { line-height: calc(8 * var(--unit));  }
+.line-1 { line-height: 0.25;  }
+.line-2 { line-height: 0.5;  }
+.line-3 { line-height: 0.75;  }
+.line-4 { line-height: 1;  }
+.line-5 { line-height: 1.25;  }
+.line-6 { line-height: 1.5;  }
+.line-7 { line-height: 1.75;  }
+.line-8 { line-height: 2;  }
 
 .uppercase {
 	text-transform: uppercase;

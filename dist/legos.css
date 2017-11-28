@@ -1808,43 +1808,35 @@ textarea.input {
 }
 
 .line-1 {
-  line-height: 4px;
-  line-height: 0.25rem;
+  line-height: 0.25;
 }
 
 .line-2 {
-  line-height: 8px;
-  line-height: 0.5rem;
+  line-height: 0.5;
 }
 
 .line-3 {
-  line-height: 12px;
-  line-height: 0.75rem;
+  line-height: 0.75;
 }
 
 .line-4 {
-  line-height: 16px;
-  line-height: 1rem;
+  line-height: 1;
 }
 
 .line-5 {
-  line-height: 20px;
-  line-height: 1.25rem;
+  line-height: 1.25;
 }
 
 .line-6 {
-  line-height: 24px;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 .line-7 {
-  line-height: 28px;
-  line-height: 1.75rem;
+  line-height: 1.75;
 }
 
 .line-8 {
-  line-height: 32px;
-  line-height: 2rem;
+  line-height: 2;
 }
 
 .uppercase {
@@ -3369,35 +3361,35 @@ textarea.input {
   }
 
   .s-line-1 {
-    line-height: 0.25rem;
+    line-height: 0.25;
   }
 
   .s-line-2 {
-    line-height: 0.5rem;
+    line-height: 0.5;
   }
 
   .s-line-3 {
-    line-height: 0.75rem;
+    line-height: 0.75;
   }
 
   .s-line-4 {
-    line-height: 1rem;
+    line-height: 1;
   }
 
   .s-line-5 {
-    line-height: 1.25rem;
+    line-height: 1.25;
   }
 
   .s-line-6 {
-    line-height: 1.5rem;
+    line-height: 1.5;
   }
 
   .s-line-7 {
-    line-height: 1.75rem;
+    line-height: 1.75;
   }
 
   .s-line-8 {
-    line-height: 2rem;
+    line-height: 2;
   }
 
   .s-uppercase {
@@ -4923,35 +4915,35 @@ textarea.input {
   }
 
   .m-line-1 {
-    line-height: 0.25rem;
+    line-height: 0.25;
   }
 
   .m-line-2 {
-    line-height: 0.5rem;
+    line-height: 0.5;
   }
 
   .m-line-3 {
-    line-height: 0.75rem;
+    line-height: 0.75;
   }
 
   .m-line-4 {
-    line-height: 1rem;
+    line-height: 1;
   }
 
   .m-line-5 {
-    line-height: 1.25rem;
+    line-height: 1.25;
   }
 
   .m-line-6 {
-    line-height: 1.5rem;
+    line-height: 1.5;
   }
 
   .m-line-7 {
-    line-height: 1.75rem;
+    line-height: 1.75;
   }
 
   .m-line-8 {
-    line-height: 2rem;
+    line-height: 2;
   }
 
   .m-uppercase {
@@ -6477,35 +6469,35 @@ textarea.input {
   }
 
   .l-line-1 {
-    line-height: 0.25rem;
+    line-height: 0.25;
   }
 
   .l-line-2 {
-    line-height: 0.5rem;
+    line-height: 0.5;
   }
 
   .l-line-3 {
-    line-height: 0.75rem;
+    line-height: 0.75;
   }
 
   .l-line-4 {
-    line-height: 1rem;
+    line-height: 1;
   }
 
   .l-line-5 {
-    line-height: 1.25rem;
+    line-height: 1.25;
   }
 
   .l-line-6 {
-    line-height: 1.5rem;
+    line-height: 1.5;
   }
 
   .l-line-7 {
-    line-height: 1.75rem;
+    line-height: 1.75;
   }
 
   .l-line-8 {
-    line-height: 2rem;
+    line-height: 2;
   }
 
   .l-uppercase {
