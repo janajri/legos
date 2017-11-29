@@ -1819,7 +1819,7 @@ textarea.input {
   text-align: center;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 481px) {
   .s-bg-black {
     background-color: var(--black);
   }

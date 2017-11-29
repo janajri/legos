@@ -26,7 +26,7 @@ const ast = {
 			...responsive,
 			{
 				type: "media",
-				media: "(min-width: 30rem)",
+				media: "(min-width: 481px)",
 				rules: prefixed.s,
 			},
 			{
