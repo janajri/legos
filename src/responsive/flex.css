@@ -2,7 +2,7 @@
 	position: relative;
 }
 
-.pointer {
+.cursor-pointer {
 	cursor: pointer;
 }
 
@@ -106,3 +106,13 @@
 .align-center { align-items: center; }
 .align-around { align-items: baseline; }
 .align-stretch { align-items: stretch; }
+
+.radius-1 { border-radius: 1px; }
+.radius-2 { border-radius: 2px; }
+.radius-3 { border-radius: 3px; }
+.radius-4 { border-radius: 4px; }
+.radius-5 { border-radius: 5px; }
+.radius-6 { border-radius: 6px; }
+.radius-7 { border-radius: 7px; }
+.radius-8 { border-radius: 8px; }
+.radius-max { border-radius: 100000px }

@@ -769,7 +769,7 @@ textarea.input {
   position: relative;
 }
 
-.pointer {
+.cursor-pointer {
   cursor: pointer;
 }
 
@@ -900,6 +900,42 @@ textarea.input {
 
 .align-stretch {
   align-items: stretch;
+}
+
+.radius-1 {
+  border-radius: 1px;
+}
+
+.radius-2 {
+  border-radius: 2px;
+}
+
+.radius-3 {
+  border-radius: 3px;
+}
+
+.radius-4 {
+  border-radius: 4px;
+}
+
+.radius-5 {
+  border-radius: 5px;
+}
+
+.radius-6 {
+  border-radius: 6px;
+}
+
+.radius-7 {
+  border-radius: 7px;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.radius-max {
+  border-radius: 100000px;
 }
 
 .fg-black {
@@ -2276,7 +2312,7 @@ textarea.input {
     position: relative;
   }
 
-  .s-pointer {
+  .s-cursor-pointer {
     cursor: pointer;
   }
 
@@ -2407,6 +2443,42 @@ textarea.input {
 
   .s-align-stretch {
     align-items: stretch;
+  }
+
+  .s-radius-1 {
+    border-radius: 1px;
+  }
+
+  .s-radius-2 {
+    border-radius: 2px;
+  }
+
+  .s-radius-3 {
+    border-radius: 3px;
+  }
+
+  .s-radius-4 {
+    border-radius: 4px;
+  }
+
+  .s-radius-5 {
+    border-radius: 5px;
+  }
+
+  .s-radius-6 {
+    border-radius: 6px;
+  }
+
+  .s-radius-7 {
+    border-radius: 7px;
+  }
+
+  .s-radius-8 {
+    border-radius: 8px;
+  }
+
+  .s-radius-max {
+    border-radius: 100000px;
   }
 
   .s-fg-black {
@@ -3784,7 +3856,7 @@ textarea.input {
     position: relative;
   }
 
-  .m-pointer {
+  .m-cursor-pointer {
     cursor: pointer;
   }
 
@@ -3915,6 +3987,42 @@ textarea.input {
 
   .m-align-stretch {
     align-items: stretch;
+  }
+
+  .m-radius-1 {
+    border-radius: 1px;
+  }
+
+  .m-radius-2 {
+    border-radius: 2px;
+  }
+
+  .m-radius-3 {
+    border-radius: 3px;
+  }
+
+  .m-radius-4 {
+    border-radius: 4px;
+  }
+
+  .m-radius-5 {
+    border-radius: 5px;
+  }
+
+  .m-radius-6 {
+    border-radius: 6px;
+  }
+
+  .m-radius-7 {
+    border-radius: 7px;
+  }
+
+  .m-radius-8 {
+    border-radius: 8px;
+  }
+
+  .m-radius-max {
+    border-radius: 100000px;
   }
 
   .m-fg-black {
@@ -5292,7 +5400,7 @@ textarea.input {
     position: relative;
   }
 
-  .l-pointer {
+  .l-cursor-pointer {
     cursor: pointer;
   }
 
@@ -5423,6 +5531,42 @@ textarea.input {
 
   .l-align-stretch {
     align-items: stretch;
+  }
+
+  .l-radius-1 {
+    border-radius: 1px;
+  }
+
+  .l-radius-2 {
+    border-radius: 2px;
+  }
+
+  .l-radius-3 {
+    border-radius: 3px;
+  }
+
+  .l-radius-4 {
+    border-radius: 4px;
+  }
+
+  .l-radius-5 {
+    border-radius: 5px;
+  }
+
+  .l-radius-6 {
+    border-radius: 6px;
+  }
+
+  .l-radius-7 {
+    border-radius: 7px;
+  }
+
+  .l-radius-8 {
+    border-radius: 8px;
+  }
+
+  .l-radius-max {
+    border-radius: 100000px;
   }
 
   .l-fg-black {
