@@ -773,23 +773,15 @@ textarea.input {
   cursor: pointer;
 }
 
-.flex,
-.flex-1,
-.flex-2,
-.flex-3,
-.flex-4,
-.flex-5,
-.flex-6,
-.flex-7,
-.flex-8,
-.flex-9,
-.flex-10 {
+.flex {
   display: flex;
-  box-sizing: border-box;
-  flex: 0 0 auto;
 }
 
-.flex {
+.block {
+  display: block;
+}
+
+.flex-grow {
   flex-grow: 1;
   flex-basis: 0;
 }
@@ -2316,23 +2308,15 @@ textarea.input {
     cursor: pointer;
   }
 
-  .s-flex,
-  .s-flex-1,
-  .s-flex-2,
-  .s-flex-3,
-  .s-flex-4,
-  .s-flex-5,
-  .s-flex-6,
-  .s-flex-7,
-  .s-flex-8,
-  .s-flex-9,
-  .s-flex-10 {
+  .s-flex {
     display: flex;
-    box-sizing: border-box;
-    flex: 0 0 auto;
   }
 
-  .s-flex {
+  .s-block {
+    display: block;
+  }
+
+  .s-flex-grow {
     flex-grow: 1;
     flex-basis: 0;
   }
@@ -3860,23 +3844,15 @@ textarea.input {
     cursor: pointer;
   }
 
-  .m-flex,
-  .m-flex-1,
-  .m-flex-2,
-  .m-flex-3,
-  .m-flex-4,
-  .m-flex-5,
-  .m-flex-6,
-  .m-flex-7,
-  .m-flex-8,
-  .m-flex-9,
-  .m-flex-10 {
+  .m-flex {
     display: flex;
-    box-sizing: border-box;
-    flex: 0 0 auto;
   }
 
-  .m-flex {
+  .m-block {
+    display: block;
+  }
+
+  .m-flex-grow {
     flex-grow: 1;
     flex-basis: 0;
   }
@@ -5404,23 +5380,15 @@ textarea.input {
     cursor: pointer;
   }
 
-  .l-flex,
-  .l-flex-1,
-  .l-flex-2,
-  .l-flex-3,
-  .l-flex-4,
-  .l-flex-5,
-  .l-flex-6,
-  .l-flex-7,
-  .l-flex-8,
-  .l-flex-9,
-  .l-flex-10 {
+  .l-flex {
     display: flex;
-    box-sizing: border-box;
-    flex: 0 0 auto;
   }
 
-  .l-flex {
+  .l-block {
+    display: block;
+  }
+
+  .l-flex-grow {
     flex-grow: 1;
     flex-basis: 0;
   }

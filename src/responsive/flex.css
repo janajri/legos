@@ -6,23 +6,15 @@
 	cursor: pointer;
 }
 
-.flex,
-.flex-1,
-.flex-2,
-.flex-3,
-.flex-4,
-.flex-5,
-.flex-6,
-.flex-7,
-.flex-8,
-.flex-9,
-.flex-10 {
+.flex {
 	display: flex;
-	box-sizing: border-box;
-	flex: 0 0 auto;
 }
 
-.flex {
+.block {
+	display: block;
+}
+
+.flex-grow {
 	flex-grow: 1;
 	flex-basis: 0;
 }
