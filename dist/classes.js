@@ -396,6 +396,8 @@ export default {
     "uppercase": true,
     "capitalize": true,
     "text-center": true,
+    "text-left": true,
+    "text-right": true,
     "s-bg-black": true,
     "s-bg-near-black": true,
     "s-bg-dark-gray": true,
@@ -792,6 +794,8 @@ export default {
     "s-uppercase": true,
     "s-capitalize": true,
     "s-text-center": true,
+    "s-text-left": true,
+    "s-text-right": true,
     "m-bg-black": true,
     "m-bg-near-black": true,
     "m-bg-dark-gray": true,
@@ -1188,6 +1192,8 @@ export default {
     "m-uppercase": true,
     "m-capitalize": true,
     "m-text-center": true,
+    "m-text-left": true,
+    "m-text-right": true,
     "l-bg-black": true,
     "l-bg-near-black": true,
     "l-bg-dark-gray": true,
@@ -1583,5 +1589,7 @@ export default {
     "l-line-8": true,
     "l-uppercase": true,
     "l-capitalize": true,
-    "l-text-center": true
+    "l-text-center": true,
+    "l-text-left": true,
+    "l-text-right": true
 }

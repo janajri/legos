@@ -1811,6 +1811,14 @@ textarea.input {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-right: left;
+}
+
 @media (min-width: 481px) {
   .s-bg-black {
     background-color: var(--black);
@@ -3344,6 +3352,14 @@ textarea.input {
 
   .s-text-center {
     text-align: center;
+  }
+
+  .s-text-left {
+    text-align: left;
+  }
+
+  .s-text-right {
+    text-right: left;
   }
 }
 
@@ -4881,6 +4897,14 @@ textarea.input {
   .m-text-center {
     text-align: center;
   }
+
+  .m-text-left {
+    text-align: left;
+  }
+
+  .m-text-right {
+    text-right: left;
+  }
 }
 
 @media (min-width: 75rem) {
@@ -6416,5 +6440,13 @@ textarea.input {
 
   .l-text-center {
     text-align: center;
+  }
+
+  .l-text-left {
+    text-align: left;
+  }
+
+  .l-text-right {
+    text-right: left;
   }
 }
