@@ -1,17 +1,21 @@
-.relative {
-	position: relative;
-}
-
-.cursor-pointer {
-	cursor: pointer;
-}
-
-.flex {
-	display: flex;
+.hide {
+	display: none;
 }
 
 .block {
 	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: block;
+}
+
+.flex {
+	display: flex;
 }
 
 .flex-grow {
@@ -27,8 +31,16 @@
 	flex-basis: 20%;
 }
 
+.flex-quarter {
+	flex-basis: 25%;
+}
+
 .flex-3 {
 	flex-basis: 30%;
+}
+
+.flex-third {
+	flex-basis: calc(100%/3);
 }
 
 .flex-4 {
@@ -59,32 +71,12 @@
 	flex-basis: 100%;
 }
 
-.flex-third {
-	flex-basis: calc(100%/3);
-}
-
 .flex-column {
 	flex-direction: column;
 }
 
 .flex-row {
 	flex-direction: row;
-}
-
-.fill {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-.hide {
-	display: none;
-}
-
-.show {
-	display: flex;
 }
 
 .justify-end { justify-content: flex-end; }
@@ -99,12 +91,14 @@
 .align-around { align-items: baseline; }
 .align-stretch { align-items: stretch; }
 
-.radius-1 { border-radius: 1px; }
-.radius-2 { border-radius: 2px; }
-.radius-3 { border-radius: 3px; }
-.radius-4 { border-radius: 4px; }
-.radius-5 { border-radius: 5px; }
-.radius-6 { border-radius: 6px; }
-.radius-7 { border-radius: 7px; }
-.radius-8 { border-radius: 8px; }
-.radius-max { border-radius: 100000px }
+.relative {
+	position: relative;
+}
+
+.fill {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
