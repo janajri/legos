@@ -818,7 +818,7 @@ textarea.input {
 }
 
 .inline-block {
-  display: block;
+  display: inline-block;
 }
 
 .flex {
@@ -936,6 +936,30 @@ textarea.input {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-hidden-y {
+  overflow-y: hidden;
+}
+
+.overflow-hidden-x {
+  overflow-x: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-scroll-y {
+  overflow-y: scroll;
+}
+
+.overflow-scroll-x {
+  overflow-x: scroll;
 }
 
 .fg-black {
@@ -2369,7 +2393,7 @@ textarea.input {
   }
 
   .s-inline-block {
-    display: block;
+    display: inline-block;
   }
 
   .s-flex {
@@ -2487,6 +2511,30 @@ textarea.input {
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .s-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .s-overflow-hidden-y {
+    overflow-y: hidden;
+  }
+
+  .s-overflow-hidden-x {
+    overflow-x: hidden;
+  }
+
+  .s-overflow-scroll {
+    overflow: scroll;
+  }
+
+  .s-overflow-scroll-y {
+    overflow-y: scroll;
+  }
+
+  .s-overflow-scroll-x {
+    overflow-x: scroll;
   }
 
   .s-fg-black {
@@ -3921,7 +3969,7 @@ textarea.input {
   }
 
   .m-inline-block {
-    display: block;
+    display: inline-block;
   }
 
   .m-flex {
@@ -4039,6 +4087,30 @@ textarea.input {
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .m-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .m-overflow-hidden-y {
+    overflow-y: hidden;
+  }
+
+  .m-overflow-hidden-x {
+    overflow-x: hidden;
+  }
+
+  .m-overflow-scroll {
+    overflow: scroll;
+  }
+
+  .m-overflow-scroll-y {
+    overflow-y: scroll;
+  }
+
+  .m-overflow-scroll-x {
+    overflow-x: scroll;
   }
 
   .m-fg-black {
@@ -5473,7 +5545,7 @@ textarea.input {
   }
 
   .l-inline-block {
-    display: block;
+    display: inline-block;
   }
 
   .l-flex {
@@ -5591,6 +5663,30 @@ textarea.input {
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  .l-overflow-hidden {
+    overflow: hidden;
+  }
+
+  .l-overflow-hidden-y {
+    overflow-y: hidden;
+  }
+
+  .l-overflow-hidden-x {
+    overflow-x: hidden;
+  }
+
+  .l-overflow-scroll {
+    overflow: scroll;
+  }
+
+  .l-overflow-scroll-y {
+    overflow-y: scroll;
+  }
+
+  .l-overflow-scroll-x {
+    overflow-x: scroll;
   }
 
   .l-fg-black {

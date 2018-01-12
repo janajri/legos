@@ -11,7 +11,7 @@
 }
 
 .inline-block {
-	display: block;
+	display: inline-block;
 }
 
 .flex {
@@ -101,4 +101,28 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-hidden-y {
+	overflow-y: hidden;
+}
+
+.overflow-hidden-x {
+	overflow-x: hidden;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+.overflow-scroll-y {
+	overflow-y: scroll;
+}
+
+.overflow-scroll-x {
+	overflow-x: scroll;
 }
