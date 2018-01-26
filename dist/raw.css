@@ -962,6 +962,16 @@ textarea.input {
   overflow-x: scroll;
 }
 
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
 .fg-black {
   color: var(--black);
 }
@@ -2539,6 +2549,16 @@ textarea.input {
 
   .s-overflow-scroll-x {
     overflow-x: scroll;
+  }
+
+  .s-unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
   }
 
   .s-fg-black {
@@ -4121,6 +4141,16 @@ textarea.input {
     overflow-x: scroll;
   }
 
+  .m-unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
   .m-fg-black {
     color: var(--black);
   }
@@ -5699,6 +5729,16 @@ textarea.input {
 
   .l-overflow-scroll-x {
     overflow-x: scroll;
+  }
+
+  .l-unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
   }
 
   .l-fg-black {
