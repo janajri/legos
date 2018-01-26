@@ -51,3 +51,7 @@
 .text-right {
 	text-align: right;
 }
+
+.text-underline {
+	text-decoration: underline;
+}
