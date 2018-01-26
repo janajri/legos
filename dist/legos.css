@@ -1916,6 +1916,10 @@ textarea.input {
   text-align: right;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 @media (min-width: 481px) {
   .s-bg-black {
     background-color: #000;
@@ -3531,6 +3535,10 @@ textarea.input {
 
   .s-text-right {
     text-align: right;
+  }
+
+  .s-text-underline {
+    text-decoration: underline;
   }
 }
 
@@ -5150,6 +5158,10 @@ textarea.input {
   .m-text-right {
     text-align: right;
   }
+
+  .m-text-underline {
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 75rem) {
@@ -6767,5 +6779,9 @@ textarea.input {
 
   .l-text-right {
     text-align: right;
+  }
+
+  .l-text-underline {
+    text-decoration: underline;
   }
 }
