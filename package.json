@@ -1,6 +1,6 @@
 {
   "name": "@ironbay/legos",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "./dist/classes.js",
   "types": "./dist/classes.d.ts",
