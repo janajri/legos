@@ -2,7 +2,8 @@
   "name": "@ironbay/legos",
   "version": "1.0.9",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/classes.js",
+  "types": "./dist/classes.d.ts",
   "scripts": {
     "build": "node ./src/compile.js",
     "watch": "watch \"npm run build\""
